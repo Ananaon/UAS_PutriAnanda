@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/btn1"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#FFFFFF">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/user"
+                android:src="@drawable/gmaps"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user"
+                android:layout_centerHorizontal="true"
+                android:text="GMaps"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn2"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/job"
+                android:src="@drawable/spc"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/job"
+                android:layout_centerHorizontal="true"
+                android:text="SharedPreferences"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn3"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#000000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/notif"
+                android:src="@drawable/nt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notif"
+                android:layout_centerHorizontal="true"
+                android:text="NETWORK"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn4"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#000000"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/mail"
+                android:src="@drawable/at"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail"
+                android:layout_centerHorizontal="true"
+                android:text="ASYnc TASK"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn5"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/rate"
+                android:src="@drawable/sms"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:layout_centerHorizontal="true"
+                android:text="SMS"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btn6"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/rev"
+                android:src="@drawable/ls"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rev"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:text="lOCAL "/>
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.gridlayout.widget.GridLayout>
